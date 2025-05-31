@@ -46,9 +46,9 @@ svg{
 .dark-theme{
   --color-text: var(--color-text-dark);
   --color-background: var(--color-background-dark);
-  --color-pink: var(--color-text-dark);
-  --color-green: var(--color-text-dark);
-  --color-blue: var(--color-text-dark);
+  --color-pink: #B36B74;
+  --color-green: #4F8A70;
+  --color-blue: #A0B0E0;
 }
 
 /* Experience --------------------------------------------- */
@@ -300,6 +300,9 @@ svg{
 .section-detail-wrapper{
   position: relative;
   padding: 20% 5%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-heading{
@@ -446,6 +449,10 @@ svg{
 /* Media Queries */
 
 @media (max-width: 968px){
+  .toggle-bar{
+    top: 24px;
+    right: 24px;
+  }
   .section{
     width: 100%;
   }
